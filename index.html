@@ -29,6 +29,14 @@ https://templatemo.com/tm-535-softy-pinko
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
 
     <link rel="stylesheet" href="assets/css/templatemo-softy-pinko.css" />
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      type="text/javascript"
+    ></script>
   </head>
 
   <body>
@@ -41,27 +49,6 @@ https://templatemo.com/tm-535-softy-pinko
       </div>
     </div>
     <!-- ***** Preloader End ***** -->
-
-    <!-- Calendly badge widget begin -->
-    <link
-      href="https://assets.calendly.com/assets/external/widget.css"
-      rel="stylesheet"
-    />
-    <script
-      src="https://assets.calendly.com/assets/external/widget.js"
-      type="text/javascript"
-    ></script>
-    <script type="text/javascript">
-      Calendly.initBadgeWidget({
-        url:
-          "https://calendly.com/ganraj-jyotish/consultation?hide_gdpr_banner=1&text_color=686c74&primary_color=eb6d46",
-        text: "Schedule Time",
-        color: "#eb6d46",
-        textColor: "#ffffff",
-        branding: true,
-      });
-    </script>
-    <!-- Calendly badge widget end -->
 
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
@@ -407,7 +394,15 @@ https://templatemo.com/tm-535-softy-pinko
                 खाली आमच्या काही लोकप्रिय सेवा आहेत. ह्या व्यतिरिक्त आम्ही ____,
                 ____, ____, ____ आणि ____ देखील करतो. ह्या सेवांसाठी आम्हाला
                 खाली दिलेल्या
-                <a href="#contact-us">फॉर्मद्वारे संपर्क करावा.</a>
+                <a href="#contact-us">फॉर्मद्वारे संपर्क करावा</a>
+                <!-- Calendly link widget begin -->
+                <a
+                  href=""
+                  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ganraj-jyotish/consultation'});return false;"
+                  >किंवा इथे भेट
+                  ठरवा</a
+                >
+                <!-- Calendly link widget end -->
               </p>
             </div>
           </div>
