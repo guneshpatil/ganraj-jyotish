@@ -1304,7 +1304,7 @@ pricing
 
 .pricing-item .pricing-header .pricing-title {
   font-weight: 500;
-  font-size: 17px;
+  font-size: 19px;
   letter-spacing: 0.25px;
   color: #1e1e1e;
   width: 180px;
@@ -1357,15 +1357,15 @@ pricing
 .pricing-item .pricing-body .list li {
   text-align: center;
   margin-bottom: 12px;
-  font-weight: 400;
-  font-size: 13px;
+  font-weight: 500;
+  font-size: 16px;
   color: #7a7a7a;
   letter-spacing: 0.25px;
   text-decoration: line-through;
 }
 
 .pricing-item .pricing-body .list li.active {
-  color: #7a7a7a;
+  color: #2b2b2b;
   text-decoration: none;
 }
 
